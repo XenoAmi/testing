@@ -29,5 +29,3 @@ git add . (add all files or current folder)
 git checkout <commit hash code/branch name> (Move to any Commit in your past)
 
 git checkout master (Back to Master File)
-
-git brach

@@ -18,16 +18,6 @@ ls (check file)
 git status (Status of file in this current)
 
 Staging Area
-git add <file name > (add a single file)
+git add <fi le name > (add a single file)
 
 git commit -m "Just for Message to Notify"
-
-git log (Just for log)
-
-git add . (add all files or current folder)
-
-git checkout <commit hash code/branch name> (Move to any Commit in your past)
-
-git checkout master (Back to Master File)
-
-git brach

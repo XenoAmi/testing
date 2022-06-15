@@ -1,0 +1,20 @@
+Git Steps :
+git --version
+
+Git Settings
+Username ID Define or Set
+git config --global user.name "XenoAmi"
+git config --global user.email "XenoAmi@gmail.com"
+git config --global --edit 
+
+mkdir (make directory or folder)
+cd <<app_folder>>
+
+Creating a Git Repository
+git init (initialise for Git)
+
+ls (check file)
+
+git status (Status of file in this current)
+
+git add <file name > (add a single file)
