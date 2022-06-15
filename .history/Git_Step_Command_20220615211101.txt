@@ -31,7 +31,3 @@ git checkout <commit hash code/branch name> (Move to any Commit in your past)
 git checkout master (Back to Master File)
 
 git brach <brach name for create new brach>
-
-git checkout -b <branch name>(create branch with checkout)
-
-git merge <branch name> ()
