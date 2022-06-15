@@ -7,6 +7,15 @@ git config --global user.name "XenoAmi"
 git config --global user.email "XenoAmi@gmail.com"
 git config --global --edit 
 
+Remove your user settings:
+git config --global --unset user.name 
+git config --global --unset user.email 
+git config --global --unset credential.helper
+
+Or all your global settings:
+git config --global --unset -all
+
+
 mkdir or MD (make directory or folder)
 cd <<app_folder>>
 
@@ -34,4 +43,23 @@ git brach <brach name for create new brach>
 
 git checkout -b <branch name>(create branch with checkout)
 
-git merge <branch name> ()
+git merge <branch name> (Merge branch to another branch)
+
+touch .gitignore ( created with command or just create file with .gitignore Note : file/folder ignore if you want didn't puch in github)
+
+ git remote -v (check remote origin)
+
+…or create a new repository on the command line
+echo "# test1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/XenoAmi/test1.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/XenoAmi/XenoAmi.git
+git remote set-url origin https://github.com/XenoAmi/XenoAmi.git
+git branch -M main
+git push -u origin main
